@@ -39,6 +39,7 @@ for i in range(0,dif_days_int +1):
                         list_text_count.append(text)
                          
     print(add_days(i))
-    t=len(list_text_count)                                          
+    t=len(list_text_count)
+    print('how many people talked about Hillary each day')
     print(t)
 

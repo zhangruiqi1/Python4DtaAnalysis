@@ -39,5 +39,6 @@ for i in range(0,dif_days_int +1):
                     retweet_count_list.append(retweet_count)
                     retweet_tweets.update({text:retweet_count})
 topthreetweets = dict(sorted(retweet_tweets.items(), key=operator.itemgetter(1), reverse=True)[:3])
+print('top three tweets are:')
 print(topthreetweets)
 
