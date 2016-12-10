@@ -16,40 +16,42 @@ And the 'Output' folder contains 5 subfolders to palce the output figures for ea
 
 To run this program you have to install the Python version at least Python 3. And I also recommend you to open with jupyter nootebook which has a better vision effect.
 
-##Give examples:
+##Start Analysis:
 
-To run the analysis_1. You should go to the 'Analysis' folder and open the folder 'analysis_1'. After double click the file,you could run the program in compiler which you have. Next run it.
+To run the analysis_1. You should go to the 'Analysis' folder and open the folder 'analysis_1'. After double click the file, you could run the program in compiler which you have. Next, run it and then the oup put will appear.
 
 ###Analysis_1 
 
 Analysis_1 shows the incomeGroup in Worldwide. In this analysis I use the data in Country.csv file. At first we read that file. And you could see 5 head rows of that file in the first ouput. And you can also checked the unique Region and country names. You will find some NaN vlaue in dataset.
 
-It is better to drop the null value rows and duplicates value rows user will get a new dataframe names 'df_country'. And 'df' is data frame we extract for row 'Region' and 'Country'.  We could check the value countryName = China, and we will get information of China in this dataset.
+It is better to drop the null value rows and duplicates value rows, so user will get a new dataframe names 'df_country'.
+Users also could check the value by insert code ShortName = China, and it will get information of China in this dataset.
 
-The first out put figure is about to show how many countries in each incomegroup.
+User could check other country's information by instering different value for ShortName.
+
+![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/readmeOutput/sc2.png)
+
+User could check other country's information by instering different value for ShortName.
+
+And 'df' is data frame we extract for row 'Region' and 'Country'. 
+The first out put figure is about to show how many countries in each incomegroup are belong to which Region.
+This is only for whole country GDP, not represent for all people in each country.
+
 
 ![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_1.png)
-![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_2.png)
-In this graph we could see the upper middle incomegroup has most of countries in. And China is also a upper middle incomegrop.
 
-Then groupby these two cloumns and you will get like this:
-Region                      IncomeGroup         
-East Asia & Pacific         High income: OECD        4
-                            High income: nonOECD     8
-                            Low income               2
-                            Lower middle income     12
-                            Upper middle income     10
-Europe & Central Asia       High income: OECD       24
-                            High income: nonOECD    13
-                            Lower middle income      8
-                            Upper middle income     12
-			    
-And we add a column named "number_country" and make a new data frame names "result" and select the East Asia & Pacific Region part.
+
+From this graph we could see the upper middle incomegroup has most of countries in. And China is also a upper middle incomegrop.
+
+Then groupby these two cloumns and  add a column named "number_country" and make a new data frame names "result" and select the East Asia & Pacific Region part.
+
+![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/readme_output/sc1.png)
 
 second output graph is :
 
-[alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_2.png)
-This is a Pie Chart of East Asia & Pacific Region IncomeGruop. That shows the percentage of each incomegroup in East Asia & Pacific Region.
+![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_2.png)
+
+This is a Pie Chart of East Asia & Pacific Region IncomeGruop. That shows the percentage of each incomegroup in East Asia & Pacific Region. We could learn from the chart that
 
 And select the income value  = Low Income you can get a  dataframe:
 
