@@ -1,41 +1,35 @@
-Final Project
-#Prject Topic:
-##Analysis of World Development Indictors
+#Analysis of World Development Indictors
 
-The World Development Indicators from the World Bank contain over a thousand annual indicators of economic development from hundreds of countries around the world.
-I chose some of the indicators and countries to analysis, get the figures to show plenty aspects, especially the analysis the development situation of China which is my mothercountry.
-Those output figures could state the situation clearly.
+##Introduction
+The World Development Indicators from the World Bank contain over a thousand annual indicators of economic development from hundreds of countries around the world. I chose some of the indicators and countries to analysis, then get the figures to show plenty aspects, especially the analysis the development situation of China which is my mothercountry. Those output figures could state the situation clearly.
 
-Pre-exploration Steps:
 
- In my FinalProject Folder there are three folders. There is a  'Analysis' folder  which contanins 5 sub folders including folder
- 
- analysis_1,analysis_2,analysis_3,analysis_4 and analysis_5. In each subfolder, there are one '.ipynb ' python nootebook file and a '.py' python file.
+##Pre-exploration Steps:
+
+In my FinalProject Folder there are three folders. There is a 'Analysis' folder which contanins 5 sub folders including folder analysis_1, analysis_2, analysis_3, analysis_4 and analysis_5. In each subfolder, there are one '.ipynb ' python nootebook file and a '.py' python file.
  
 A folder named Data contains the dataset I used in this project. The main dataset I used are 'Indicadiors.csv' and 'Country.csv'. Others I used for looking up the indicator names and other information.
 
 And the 'Output' folder contains 5 subfolders to palce the output figures for each analysis. Named like 'Analysis_1Output'.
 
-Getting Started:
+##Getting Started:
 
-To run this program you have to install the Python version at least Python 3. And I also recommend you to open with jupyter nootebook
+To run this program you have to install the Python version at least Python 3. And I also recommend you to open with jupyter nootebook which has a better vision effect.
 
-which has a better vision effect.
-
-Give examples:
+##Give examples:
 
 To run the analysis_1. You should go to the 'Analysis' folder and open the folder 'analysis_1'. After double click the file,you could run the program in compiler which you have. Next run it.
 
-Analysis_1 shows the incomeGroup in Worldwide. In this analysis we use the data in  Country.csv file, so at first we read that file. And you could see 5 head rows of that file in the first ouput. And you can also checked the unique Region and country names. You will find some NaN vlaue in dataset.
+###Analysis_1 
 
-So, itis better to drop the null value rows and duplicates value rows We will get a new dataframe names 'df_country'. And 'df' is data frame we extract
+Analysis_1 shows the incomeGroup in Worldwide. In this analysis I use the data in Country.csv file. At first we read that file. And you could see 5 head rows of that file in the first ouput. And you can also checked the unique Region and country names. You will find some NaN vlaue in dataset.
 
-for row 'Region' and 'Country'.  We could check the value countryName = China, and we will get information of China in this dataset.
+It is better to drop the null value rows and duplicates value rows user will get a new dataframe names 'df_country'. And 'df' is data frame we extract for row 'Region' and 'Country'.  We could check the value countryName = China, and we will get information of China in this dataset.
 
 The first out put figure is about to show how many countries in each incomegroup.
 
-[alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_1.png)
-
+![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_1.png)
+![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_2.png)
 In this graph we could see the upper middle incomegroup has most of countries in. And China is also a upper middle incomegrop.
 
 Then groupby these two cloumns and you will get like this:
