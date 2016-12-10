@@ -1,6 +1,7 @@
 Final Project
 Prject Topic:
 Analysis of World Development Indictors
+
 The World Development Indicators from the World Bank contain over a thousand annual indicators of economic development from hundreds of countries around the world.
 I chose some of the indicators and countries to analysis, get the figures to show plenty aspects, especially the analysis the development situation of China which is my mothercountry.
 Those output figures could state the situation clearly.
