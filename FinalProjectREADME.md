@@ -60,7 +60,7 @@ And select the income value  = Low Income you can get a  dataframe:
 
  And We can use this new dataset to get the Region of Low IncomeGruop Country Piecart:
  
-! [alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_3.png)
+![alt tag](https://github.com/zhangruiqi1/Python4DtaAnalysis/blob/master/FinalProject/Output/Analysis1_Output/A1_3.png)
  
 That shows the Sub-Saharan Africa get most low income group countries and the percentage of each region.
 
